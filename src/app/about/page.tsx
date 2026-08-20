@@ -11,7 +11,7 @@ export default function About() {
 
       <section className="two-col">
         <div className="portrait-frame">
-          <span>[Portro]</span>
+          <span>[Portrait Photo]</span>
         </div>
         <div>
           <h2>Hi, I&apos;m Akane</h2>
