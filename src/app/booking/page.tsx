@@ -13,7 +13,7 @@ export default function Booking() {
         <h1>Let&apos;s find your time</h1>
         <p>
           Reach out directly to schedule your Reiki session or Personal training
-          <br/>
+          <br />
           I&apos;ll respond as soon as I can.
         </p>
       </section>
@@ -30,10 +30,10 @@ export default function Booking() {
               @akane.little
             </Link>
           </div>
-          <p className="hours-note">
-            [Add your general availability here, e.g., &quot;Sessions available
-            Tuesday–Saturday, 9am–5pm.&quot;]
-          </p>
+          <div className="hours">
+            <p><span>Personal Training sessions </span>available <span>Monday-Friday, 7am-5pm</span></p>
+            <p><span>Reiki sessions </span>available <span>Monday-Sunday, 3pm-8pm</span></p>
+          </div>
         </div>
       </section>
     </main>

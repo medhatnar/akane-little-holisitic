@@ -26,7 +26,7 @@ export default function Home() {
               <span className="dot"></span>Reiki Healing
             </h3>
             <p>
-              REIKI EXCERPT
+              Gentle, hands-on energy healing to help release tension, restore balance, and support whole-body well-being.
             </p>
             <Link href="/reiki" className="cta-btn cta-btn-sm">
               Explore Reiki
@@ -34,10 +34,10 @@ export default function Home() {
           </div>
           <div className="approach-card">
             <h3>
-              <span className="dot"></span>Professional Training
+              <span className="dot"></span>Personal Training
             </h3>
             <p>
-              Personalized training sessions for cool gay people
+              Professionally customized training sessions for strength, mobility, and somatic attunement.
             </p>
             <Link href="/training" className="cta-btn cta-btn-sm">
               Explore Training
