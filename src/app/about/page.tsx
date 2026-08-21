@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function About() {
   return (
@@ -13,7 +12,13 @@ export default function About() {
 
       <section className="two-col">
         <div className="portrait-frame">
-          <span>[Portrait Photo]</span>
+          <Image
+            src="/alh-headshot-2023.jpeg"
+            alt="Akane Little"
+            width={400}
+            height={400}
+            className="portrait"
+          />
         </div>
         <div>
           <h2>Hi, I&apos;m Akane</h2>
